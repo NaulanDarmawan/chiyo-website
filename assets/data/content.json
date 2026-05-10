@@ -1,0 +1,106 @@
+{
+  "tiles": [
+    {
+      "id": "1",
+      "type": "brand",
+      "title": "Logo Chiyo",
+      "layout": "col-start-1 row-start-1 col-span-1 row-span-1",
+      "bgColor": "bg-chiyo-neon",
+      "textColor": "text-black"
+    },
+    {
+      "id": "2",
+      "type": "action",
+      "title": "ABOUT",
+      "layout": "col-start-1 row-start-2 col-span-1 row-span-1"
+    },
+    {
+      "id": "3",
+      "type": "showcase",
+      "title": "2D Production",
+      "layout": "col-start-1 row-start-3 col-span-1 row-span-3",
+      "src": "/images/thumb-2d.jpeg"
+    },
+    {
+      "id": "4",
+      "type": "action",
+      "title": "TEAM",
+      "layout": "col-start-1 row-start-6 col-span-1 row-span-1",
+      "bgColor": "bg-chiyo-neon",
+      "textColor": "text-black"
+    },
+
+    {
+      "id": "5",
+      "type": "video-autoplay",
+      "title": "HOOK",
+      "src": "/videos/belajar.mp4",
+      "poster": "/images/poster-hook.jpeg",
+      "layout": "col-start-2 row-start-1 col-span-2 row-span-3"
+    },
+    {
+      "id": "6",
+      "type": "action",
+      "title": "SOCIAL MEDIA",
+      "layout": "col-start-4 row-start-1 col-span-2 row-span-1"
+    },
+    {
+      "id": "7",
+      "type": "showcase",
+      "title": "IP LAB",
+      "layout": "col-start-4 row-start-2 col-span-2 row-span-2",
+      "src": "/images/thumb-iplab.jpeg"
+    },
+    {
+      "id": "8",
+      "type": "showcase",
+      "title": "3D Animation Production",
+      "layout": "col-start-2 row-start-4 col-span-4 row-span-3",
+      "src": "/images/thumb-3d.jpeg"
+    },
+
+    {
+      "id": "9",
+      "type": "showcase",
+      "title": "3D Asset Store",
+      "layout": "col-start-6 row-start-1 col-span-3 row-span-2",
+      "bgColor": "bg-chiyo-pink",
+      "src": "/images/thumb-assetstore.jpeg"
+    },
+    {
+      "id": "10",
+      "type": "action",
+      "title": "CHIYO ACADEMY",
+      "layout": "col-start-9 row-start-1 col-span-4 row-span-1"
+    },
+    {
+      "id": "11",
+      "type": "base",
+      "title": "",
+      "layout": "col-start-9 row-start-2 col-span-1 row-span-1",
+      "bgColor": "bg-chiyo-neon"
+    },
+    {
+      "id": "12",
+      "type": "action",
+      "title": "CONTACT",
+      "layout": "col-start-10 row-start-2 col-span-3 row-span-1"
+    },
+    {
+      "id": "13",
+      "type": "video-hover",
+      "title": "MINI THEATER",
+      "src": "/videos/belajar.mp4",
+      "poster": "/images/poster-theater.jpeg",
+      "layout": "col-start-6 row-start-3 col-span-7 row-span-3"
+    },
+    {
+      "id": "14",
+      "type": "action",
+      "title": "Start a Project",
+      "layout": "col-start-6 row-start-6 col-span-7 row-span-1",
+      "bgColor": "bg-white",
+      "textColor": "text-black"
+    }
+  ]
+}
