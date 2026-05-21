@@ -5,7 +5,7 @@
     <div
       class="grid grid-cols-12 grid-rows-6 gap-3 h-full max-w-[1600px] mx-auto"
     >
-      <NuxtLink to="/" class="col-start-1 row-start-1 col-span-1 row-span-1">
+      <NuxtLink to="/" class="col-start-1 row-start-1 col-span-2 row-span-1">
         <TileBase class="bg-chiyo-neon flex items-center justify-center p-2">
           <img
             src="/images/FireflyIcon.png"
@@ -38,10 +38,10 @@
             <div
               v-for="member in team"
               :key="member.name"
-              class="border border-white/80 rounded-[2rem] p-5 flex flex-col items-center text-center bg-black/20 hover:bg-white/5 transition-colors"
+              class="border border-white/80 rounded-[2rem] p-5 flex flex-col items-center justify-center text-center bg-black/20 hover:bg-white/5 transition-colors"
             >
               <div
-                class="w-16 h-16 rounded-full bg-white mb-4 flex items-center justify-center overflow-hidden"
+                class="w-32 h-32 rounded-full bg-white mb-4 flex items-center justify-center overflow-hidden"
               >
                 <img
                   :src="member.image"
