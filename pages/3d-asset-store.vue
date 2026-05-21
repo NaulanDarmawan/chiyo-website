@@ -2,7 +2,7 @@
   <main class="h-screen w-full bg-black p-4 md:p-6 overflow-hidden font-sans text-white">
     <div class="grid grid-cols-12 grid-rows-6 gap-3 h-full max-w-[1600px] mx-auto">
 
-      <NuxtLink to="/" class="col-start-1 row-start-1 col-span-1 row-span-1">
+      <NuxtLink to="/" class="col-start-1 row-start-1 col-span-2 row-span-1">
         <TileBase class="bg-chiyo-neon flex items-center justify-center p-2">
           <img src="/images/FireflyIcon.png" class="w-full h-auto" alt="Logo CHIYO" />
         </TileBase>
@@ -51,7 +51,10 @@ const activeIndex = ref(1)
 const cards = [
   { id: 1, image: '/images/thumb-3d.jpeg' }, // Room setup
   { id: 2, image: '/images/thumb-2d.jpeg' }, // Cat Mascot (Center)
-  { id: 3, image: '/images/thumb-assetstore.jpeg' } // Desk setup
+  { id: 3, image: '/images/thumb-assetstore.jpeg' }, // Desk setup
+  { id: 4, image: '/images/thumb-assetstore.jpeg' }, // Desk setup
+  { id: 5, image: '/images/thumb-assetstore.jpeg' }, // Desk setup
+  { id: 6, image: '/images/thumb-assetstore.jpeg' }, // Desk setup
 ]
 
 /**
@@ -66,8 +69,8 @@ const getCardStyle = (index) => {
       transform: 'translateX(0) scale(1)',
       zIndex: 30,
       opacity: 1,
-      width: '500px',
-      height: '350px'
+      width: '600px',
+      height: '450px'
     }
   }
 
@@ -76,8 +79,8 @@ const getCardStyle = (index) => {
     transform: `translateX(${diff * 200}px) scale(0.85)`,
     zIndex: 10,
     opacity: 0.6,
-    width: '500px',
-    height: '350px',
+    width: '600px',
+    height: '450px',
     filter: 'blur(2px)'
   }
 }

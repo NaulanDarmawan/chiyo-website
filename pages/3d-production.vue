@@ -2,7 +2,7 @@
   <main class="h-screen w-full bg-black p-4 md:p-6 overflow-hidden font-sans text-white">
     <div class="grid grid-cols-12 grid-rows-6 gap-3 h-full max-w-[1600px] mx-auto">
 
-      <NuxtLink to="/" class="col-start-1 row-start-1 col-span-1 row-span-1">
+      <NuxtLink to="/" class="col-start-1 row-start-1 col-span-2 row-span-1">
         <TileBase class="bg-chiyo-neon flex items-center justify-center p-2">
           <img src="/public/images/FireflyIcon.png" class="w-full h-auto" alt="Logo CHIYO" />
         </TileBase>
